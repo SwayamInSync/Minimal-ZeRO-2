@@ -1,7 +1,5 @@
 # Minimal ZeRO-2 CUDA/MPI/NCCL Prototype
 
-## Description
-
 This project provides a minimal, "from-scratch" implementation of the core concepts behind the **ZeRO (Zero Redundancy Optimizer) Stage 2** strategy using C++, CUDA, MPI, and NCCL. It demonstrates how to partition optimizer states and gradients across multiple GPUs to reduce memory redundancy during distributed training, allowing larger models to be handled.
 
 This is intended as an educational prototype to understand the underlying mechanics, not as a production-ready, fully-featured library.
@@ -32,7 +30,7 @@ To build and run this project, you will need:
 
 1.  **Clone the repository (if applicable).**
 2.  **Ensure all dependencies are installed.**
-3.  **Create a build script (e.g., `run.sh`) or run manually:**
+3.  **Modify the build script`run.sh` as following**
 
     ```bash
     #!/bin/bash
