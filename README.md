@@ -2,7 +2,7 @@
 
 This project provides a minimal, "from-scratch" implementation of the core concepts behind the **ZeRO (Zero Redundancy Optimizer) Stage 2** strategy using C++, CUDA, MPI, and NCCL. It demonstrates how to partition optimizer states and gradients across multiple GPUs to reduce memory redundancy during distributed training, allowing larger models to be handled.
 
-This is intended as an educational prototype to understand the underlying mechanics, not as a production-ready, fully-featured library.
+> This is intended as an educational prototype to understand the underlying mechanics, not as a production-ready, fully-featured library.
 
 ## Features
 
