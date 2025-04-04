@@ -28,7 +28,7 @@ To build and run this project, you will need:
 
 ## Build Instructions
 
-1.  **Clone the repository (if applicable).**
+1.  **Clone the repository.**
 2.  **Ensure all dependencies are installed.**
 3.  **Modify the build script`run.sh` as following**
 
